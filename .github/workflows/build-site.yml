@@ -47,7 +47,7 @@ jobs:
           venvnew() {
               python3 -m venv .venv --prompt $(basename $PWD)
               source .venv/bin/activate
-              pip install --no-deps -r requirements.txt
+              pip install .
               }
 
           source .venv/bin/activate  > /dev/null 2>&1 || venvnew
