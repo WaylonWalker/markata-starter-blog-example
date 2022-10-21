@@ -1,0 +1,22 @@
+2022-10-21 13:55:38,588 markata      WARNING  
+                        Warning lang is not set in markata config, sitemap will
+                        be missing root site_name
+                        to resolve this open your markata.toml and add
+
+
+[markata]
+lang = ''
+
+
+
+2022-10-21 14:00:42,022 markata      WARNING  
+                        Warning lang is not set in markata config, sitemap will
+                        be missing root site_name
+                        to resolve this open your markata.toml and add
+
+
+[markata]
+lang = ''
+
+
+
