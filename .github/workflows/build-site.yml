@@ -52,7 +52,6 @@ jobs:
 
           source .venv/bin/activate  > /dev/null 2>&1 || venvnew
 
-
       - name: run markata
         run: |
           source .venv/bin/activate
